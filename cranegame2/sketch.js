@@ -20,6 +20,13 @@ let gravityRate=4;
 let totalPoints=0;
 let bigBlock=false;
 let smallBlock=false;
+//load images
+function preload() {
+  img = loadImage('/images/carmClosed.png');
+  img2 = loadImage('/images/carmOpen.png');
+  img3 = loadImage('/images/cHead.png');
+  img4 = loadImage('/images/background.jpg');
+}
 
 
 // for given shape coords, return distance from cranehand
@@ -37,13 +44,6 @@ function keyPressed() {
   }
 }
 
-//load images
-function preload() {
-  img = loadImage('/images/carmClosed.png');
-  img2 = loadImage('/images/carmOpen.png');
-  img3 = loadImage('/images/cHead.png');
-  img4 = loadImage('/images/background.jpg');
-}
 
 function setup() {
   createCanvas(800, 600);
