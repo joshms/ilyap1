@@ -22,10 +22,10 @@ let bigBlock=false;
 let smallBlock=false;
 //load images
 function preload() {
-  img = loadImage('/images/carmClosed.png');
-  img2 = loadImage('/images/carmOpen.png');
-  img3 = loadImage('/images/cHead.png');
-  img4 = loadImage('/images/background.jpg');
+  img = loadImage('images/carmClosed.png');
+  img2 = loadImage('images/carmOpen.png');
+  img3 = loadImage('images/cHead.png');
+  img4 = loadImage('images/background.jpg');
 }
 
 
